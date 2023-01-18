@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7606a58-3a2f-436b-9d97-908ead1cf752" name="Changes" comment="Initial plus">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ColdObservables.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CreatingObservable.java" afterDir="false" />
+    <list default="true" id="d7606a58-3a2f-436b-9d97-908ead1cf752" name="Changes" comment="Cold Observables">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HotObservables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ObservableVariants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OperatorsInAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,34 +40,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.ColdObservables">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.App" />
-      <module name="RxJavaStart" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}]]></component>
+  <component name="RunManager" selected="Application.OperatorsInAction">
     <configuration name="ColdObservables" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.ColdObservables" />
       <module name="RxJavaStart" />
@@ -92,8 +82,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObservableAndObserver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ObservableAndObserver" />
+    <configuration name="HotObservables" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.HotObservables" />
+      <module name="RxJavaStart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ObservableVariants" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ObservableVariants" />
+      <module name="RxJavaStart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OperatorsInAction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.OperatorsInAction" />
       <module name="RxJavaStart" />
       <extension name="coverage">
         <pattern>
@@ -107,10 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OperatorsInAction" />
+        <item itemvalue="Application.ObservableVariants" />
+        <item itemvalue="Application.HotObservables" />
         <item itemvalue="Application.ColdObservables" />
         <item itemvalue="Application.CreatingObservable" />
-        <item itemvalue="Application.ObservableAndObserver" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -123,7 +140,7 @@
       <option name="presentableId" value="Default" />
       <updated>1673965871848</updated>
       <workItem from="1673965873931" duration="5367000" />
-      <workItem from="1674037958649" duration="2371000" />
+      <workItem from="1674037958649" duration="7155000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1673967281096</created>
@@ -139,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673969813415</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Cold Observables">
+      <created>1674041025137</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674041025138</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +183,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial" />
     <MESSAGE value="Initial plus" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial plus" />
+    <MESSAGE value="Cold Observables" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cold Observables" />
   </component>
 </project>
